@@ -9,9 +9,72 @@ a {
   color: #FECC33;
 }
 
+.homepage-toppad {
+    padding-top: 50px;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
 a:hover {
   color: #ffd584;
   text-decoration: none;
+}
+
+
+.btn-oztix {
+    color: #fff;
+    background: #0077C9;
+    font-weight: 700;
+    text-transform:uppercase
+}
+
+.btn-oztix:hover {
+    color: #fff;
+    background: #045f9e;
+
+}
+
+.btn-qpay {
+    color: #fff;
+    background: #E92770;
+    font-weight: 700;
+    text-transform:uppercase
+}
+
+.btn-qpay:hover {
+    color: #fff;
+    background: #b41752;
+
+}
+
+
+
+
+
+
+
+
+
+
+.dualdate-divider {
+            border-left: 1px solid #ccc;
+            height: 100%;
+        }
+
+.dualdate-divider-hor {
+            border-bottom: 1px solid #ccc;
+            width: 70%;
+        }
+
+.event-verticalpad {
+    padding-bottom: 40px;
+}
+
+.col-noleft {
+    padding-left: 0;
 }
 
 .vtlogo {
@@ -955,29 +1018,40 @@ font-size: 13px;
 }
 
 
+
+
+/* ---- Depreceated --
+
+
 @media only screen and (max-width: 760px) {
  .bgVideo {
    display:none;
  }
 }
 
-#header-desktop {display: block;}
-#header-mobile {display: none;}
+------*/
 
-@media screen and (max-width: 760px) {
 
-#header-desktop {display: none;}
-#header-mobile {display: block;}
-
+#header-desktop {
+    
+    display: block;
 }
+
+#header-mobile {
+    
+    display: none;
+}
+
+
+
+
+
+--*/
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
+
 
 .section-title {
   padding-bottom: 40px;
@@ -1019,6 +1093,13 @@ section {
 ---*/
 .eventpage a {
     color: #fff
+}
+
+.eventpage sup {
+font-size: 0.5em; /* Adjust the size as needed */
+            line-height: 1; /* Normal line height */
+            position: relative;
+            top: -1.0em; /* Adjust the value to align with the top of surrounding text */
 }
 
 .eventpage h2{
@@ -2507,7 +2588,7 @@ margin-top: 80px !important;
 
 .oztixlogo_img:hover {
   max-height: 20px;
-  opacity: 80%;
+  opacity: 100%;
 }
 
 .oztixeventpage-tix-btn {

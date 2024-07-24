@@ -10,6 +10,31 @@
       });
     }
   });
+    
+    // Add UTM code to all Oztix links
+    
+            document.addEventListener("DOMContentLoaded", function() {
+            // Define the UTM tracking code
+            const utmCode = 'utm_source=VandemonianWebsite&utm_medium=VandemonianWebsite&utm_campaign=VandemonianWebsite';
+
+            // Get all links on the page
+            const links = document.querySelectorAll('a');
+
+            // Loop through each link
+            links.forEach(link => {
+                // Check if the link href contains 'oztix.com.au'
+                if (link.href.includes('oztix.com.au')) {
+                    // Check if the link already has a query string
+                    if (link.href.includes('?')) {
+                        // Append the UTM tracking code to the existing query string
+                        link.href += '&' + utmCode;
+                    } else {
+                        // Add the UTM tracking code as the query string
+                        link.href += '?' + utmCode;
+                    }
+                }
+            });
+        });
   
   // Animation on logo hover
   $('logo').hover(
