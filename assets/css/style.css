@@ -56,7 +56,31 @@ a:hover {
 }
 
 
+.card-btn3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 3px;
+    border-color: #FECC33;
+  transition: 0.5s;
+    color: #000;
+    background: #FECC33;
+  line-height: 1;
+  margin: 15px 0 0 0;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+    background: ;
+    ;
+}
 
+.card-btn3:hover {
+  transition: 0.5s;
+  border: 2px solid #ffbf3f;
+    background: #000;
+        color: #fff;
+}
 
 
 
