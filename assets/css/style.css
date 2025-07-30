@@ -17,7 +17,6 @@ a {
 input:focus {
   outline: none; /* Removes the default blue outline */
   border: 2px solid #FECC33; /* Your custom border color */
-  box-shadow: 0 0 5px #FECC33; /* Optional: adds glow effect */
 }
 
 .homepage-toppad {
@@ -518,11 +517,13 @@ padding-left: 20px;
   color: #fff;
   transition: all 0.5s;
     z-index: 99999;
+      transition: all 0.5s;
 }
 
 #header .logo a:hover {
   color: #fff;
   transform: scale(1.1);
+      transition: all 0.5s;
 }
 
 #header .logo a span {
@@ -1017,7 +1018,7 @@ padding-left: 20px;
 }
 
 #hero .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 750;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1044,8 +1045,10 @@ padding-left: 20px;
 
 #hero .about-btn:hover {
  /* background: rgba(255,0,0,0);*/
-  color: #fff;
-    transform: scale(1.3);
+  color: #000;
+    background-color: #fff;
+      border: 2px solid #00000000;
+
 
 }
 
@@ -1712,7 +1715,7 @@ margin-top: 50px;
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -2201,7 +2204,12 @@ font-size: 30px;
 }
 
 .ub_border {
-      border: 1px solid grey;
+      border: 1px solid grey!important;
+}
+
+.white_border {
+      border: 1px solid #fff!important;
+
 }
 
 /* FB Event Button */
@@ -2487,7 +2495,7 @@ margin-top: 80px !important;
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
 }
 
