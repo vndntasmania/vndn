@@ -166,6 +166,27 @@ a:hover {
 
 }
 
+.btn-twf {
+    color: #333333!impoortant;
+    background: #fecc33;
+    font-weight: 700;
+    text-transform:uppercase
+}
+
+.btn-twf a {
+    color: #333333;
+}
+
+.btn-twf a:hover {
+    color: #fecc33;
+}
+
+.btn-twf:hover {
+    color: #fecc33;
+    background: #333333;
+
+}
+
 .btn-qpay {
     color: #fff;
     background: #E92770;
